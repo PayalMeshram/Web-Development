@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+       body{
+    width: 100%;
+    height: 500px;
+}
+.grass,.sky,.road{
+    position: relative;
+}
+.sky{
+    height:200px;
+    background-color: skyblue;
+}
+.cloud{
+    height: 100px;
+    width: 200px;
+}
+.grass{
+    height:250px;
+    background-color: seagreen;
+}
+.road{
+    height:250px ;
+    background-color: dimgray;
+    box-sizing: border-box;
+    border-top: 10px solid gray;
+    border-bottom: 10px solid gray;
+    width: 100%;
+}
+.lines{
+    box-sizing: border-box;
+    border:5px dashed white;
+    height:5px;
+    width: 100%;
+    position: absolute;
+}
+.car{
+    width:100px;
+    height:80px;
+    animation: drive 3s;
+    animation-timing-function: linear;
+    
+}
+.bike{
+    height: 100px;
+    width :200px;
+    animation: drive 5s reverse;
+    animation-timing-function: linear;
+    position: absolute;
+    bottom:50px;
+
+}
+@keyframes drive{
+    from{
+        transform:translateX(0)
+    }
+    to{
+        transform:translateX(1500px);
+    }
+}
+
+
+   </style>
+</head>
+<body>
+   <div class="sky">
+       <img class="cloud" src="Images/clouds-clipart-.png">
+   </div>
+   <div class="grass">
+   </div>
+   <div class="road">
+       <img class="car" src="Images/carr.png">
+       <div class="lines"></div>
+   </div>
+   </div>
+</body>
+</html>
