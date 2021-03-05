@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>CSS3 Transformation</title>
+</head>
+<body>
+    <style>
+        body{
+    font-family: Arial, sans-serif;
+}
+section{
+    background-color: lightgray;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+}
+article{
+    background: linear-gradient(45deg,black,rgb(235, 21, 170));
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    display: inline-block;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    transition: all 2s;
+}
+
+/* ----------- Transformation 1 ----------- */
+.trans-1:hover{
+    transform: translateY(-20px);
+    background: linear-gradient(45deg,black,blue);
+}
+
+
+/* ----------- Transformation 2 ----------- */
+.trans-2:hover{
+    transform:skewX(20deg);
+    background: linear-gradient(45deg,black,blue);
+}
+
+
+/* ----------- Transformation 3 ----------- */
+.trans-3:hover{
+    transform:scale(1.2,1.2);
+    background: linear-gradient(45deg,black,blue);
+}
+
+/* ----------- Transformation 4 ----------- */
+.trans-4:hover{
+    transform:scale(0.8,0.8);
+    background: linear-gradient(45deg,black,blue);
+}
+
+
+/* ----------- Transformation 5 ----------- */
+.trans-5:hover{
+    transform:skewX(20deg) scale(1.2,1.2);
+    background: linear-gradient(45deg,black,blue);
+}
+
+
+/* ----------- Transformation 6 ----------- */
+.trans-6:hover{
+    transform: perspective(400px) rotateX(-20deg);
+    background: linear-gradient(45deg,black,blue);
+}
+
+
+/* ----------- Transformation 7 ----------- */
+.trans-7:hover{
+    transform: perspective(400px) rotateY(20deg);
+    background: linear-gradient(45deg,black,blue);
+}
+
+/* ----------- Transformation 8 ----------- */
+.trans-8:hover{
+    transform: perspective(400px) rotate3d(1,1,1,45deg);
+    background: linear-gradient(45deg,black,blue);
+}
+    </style>
+
+    <!-- Transformation 1 -->
+    <h2>Transformation 1</h2>
+    <section>
+        <article class="trans-1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque dolore, enim est et ex iure molestias nemo numquam odio porro qui saepe sed similique totam? Maiores quia repellendus sed! Error hic ipsa labore, mollitia nam necessitatibus qui. Accusantium, aliquam!</p>
+        </article>
+
+        <article class="trans-1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque dolore, enim est et ex iure molestias nemo numquam odio porro qui saepe sed similique totam? Maiores quia repellendus sed! Error hic ipsa labore, mollitia nam necessitatibus qui. Accusantium, aliquam!</p>
+        </article>
+
+        <article class="trans-1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque dolore, enim est et ex iure molestias nemo numquam odio porro qui saepe sed similique totam? Maiores quia repellendus sed! Error hic ipsa labore, mollitia nam necessitatibus qui. Accusantium, aliquam!</p>
+        </article>
+
+        <article class="trans-1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque dolore, enim est et ex iure molestias nemo numquam odio porro qui saepe sed similique totam? Maiores quia repellendus sed! Error hic ipsa labore, mollitia nam necessitatibus qui. Accusantium, aliquam!</p>
+        </article>
+    </section>
+
+    <!-- Transformation 2 -->
+    <h2>Transformation 2</h2>
+    <section>
+        <article class="trans-2">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque dolore, enim est et ex iure molestias nemo numquam odio porro qui saepe sed similique totam? Maiores quia repellendus sed! Error hic ipsa labore, mollitia nam necessitatibus qui. Accusantium, aliquam!</p>
+        </article>
+
+        <article class="trans-2">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque dolore, enim est et ex iure molestias nemo numquam odio porro qui saepe sed similique totam? Maiores quia repellendus sed! Error hic ipsa labore, mollitia nam necessitatibus qui. Accusantium, aliquam!</p>
+        </article>
+
+        <article class="trans-2">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque dolore, enim est et ex iure molestias nemo numquam odio porro qui saepe sed similique totam? Maiores quia repellendus sed! Error hic ipsa labore, mollitia nam necessitatibus qui. Accusantium, aliquam!</p>
+        </article>
+
+        <article class="trans-2">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque dolore, enim est et ex iure molestias nemo numquam odio porro qui saepe sed similique totam? Maiores quia repellendus sed! Error hic ipsa labore, mollitia nam necessitatibus qui. Accusantium, aliquam!</p>
+        </article>
+    </section>
+
+    <!-- Transformation 3 -->
+    <h2>Transformation 3</h2>
+    <section>
+        <article class="trans-3">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque dolore, enim est et ex iure molestias nemo numquam odio porro qui saepe sed similique totam? Maiores quia repellendus sed! Error hic ipsa labore, mollitia nam necessitatibus qui. Accusantium, aliquam!</p>
+        </article>
+
+        <article class="trans-3">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque dolore, enim est et ex iure molestias nemo numquam odio porro qui saepe sed similique totam? Maiores quia repellendus sed! Error hic ipsa labore, mollitia nam necessitatibus qui. Accusantium, aliquam!</p>
+        </article>
+
+        <article class="trans-3">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque dolore, enim est et ex iure molestias nemo numquam odio porro qui saepe sed similique totam? Maiores quia repellendus sed! Error hic ipsa labore, mollitia nam necessitatibus qui. Accusantium, aliquam!</p>
+        </article>
+
+        <article class="trans-3">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque dolore, enim est et ex iure molestias nemo numquam odio porro qui saepe sed similique totam? Maiores quia repellendus sed! Error hic ipsa labore, mollitia nam necessitatibus qui. Accusantium, aliquam!</p>
+        </article>
+    </section>
+
+    <!-- Transformation 4 -->
+    <h2>Transformation 4</h2>
+    <section>
+        <article class="trans-4">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque dolore, enim est et ex iure molestias nemo numquam odio porro qui saepe sed similique totam? Maiores quia repellendus sed! Error hic ipsa labore, mollitia nam necessitatibus qui. Accusantium, aliquam!</p>
+        </article>
+
+        <article class="trans-4">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque dolore, enim est et ex iure molestias nemo numquam odio porro qui saepe sed similique totam? Maiores quia repellendus sed! Error hic ipsa labore, mollitia nam necessitatibus qui. Accusantium, aliquam!</p>
+        </article>
+
+        <article class="trans-4">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque dolore, enim est et ex iure molestias nemo numquam odio porro qui saepe sed similique totam? Maiores quia repellendus sed! Error hic ipsa labore, mollitia nam necessitatibus qui. Accusantium, aliquam!</p>
+        </article>
+
+        <article class="trans-4">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque dolore, enim est et ex iure molestias nemo numquam odio porro qui saepe sed similique totam? Maiores quia repellendus sed! Error hic ipsa labore, mollitia nam necessitatibus qui. Accusantium, aliquam!</p>
+        </article>
+    </section>
+
+    <!-- Transformation 5 -->
+    <h2>Transformation 5</h2>
+    <section>
+        <article class="trans-5">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque dolore, enim est et ex iure molestias nemo numquam odio porro qui saepe sed similique totam? Maiores quia repellendus sed! Error hic ipsa labore, mollitia nam necessitatibus qui. Accusantium, aliquam!</p>
+        </article>
+
+        <article class="trans-5">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque dolore, enim est et ex iure molestias nemo numquam odio porro qui saepe sed similique totam? Maiores quia repellendus sed! Error hic ipsa labore, mollitia nam necessitatibus qui. Accusantium, aliquam!</p>
+        </article>
+
+        <article class="trans-5">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque dolore, enim est et ex iure molestias nemo numquam odio porro qui saepe sed similique totam? Maiores quia repellendus sed! Error hic ipsa labore, mollitia nam necessitatibus qui. Accusantium, aliquam!</p>
+        </article>
+
+        <article class="trans-5">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque dolore, enim est et ex iure molestias nemo numquam odio porro qui saepe sed similique totam? Maiores quia repellendus sed! Error hic ipsa labore, mollitia nam necessitatibus qui. Accusantium, aliquam!</p>
+        </article>
+    </section>
+
+
+    <!-- Transformation 6 -->
+    <h2>Transformation 6</h2>
+    <section>
+        <article class="trans-6">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque dolore, enim est et ex iure molestias nemo numquam odio porro qui saepe sed similique totam? Maiores quia repellendus sed! Error hic ipsa labore, mollitia nam necessitatibus qui. Accusantium, aliquam!</p>
+        </article>
+
+        <article class="trans-6">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque dolore, enim est et ex iure molestias nemo numquam odio porro qui saepe sed similique totam? Maiores quia repellendus sed! Error hic ipsa labore, mollitia nam necessitatibus qui. Accusantium, aliquam!</p>
+        </article>
+
+        <article class="trans-6">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque dolore, enim est et ex iure molestias nemo numquam odio porro qui saepe sed similique totam? Maiores quia repellendus sed! Error hic ipsa labore, mollitia nam necessitatibus qui. Accusantium, aliquam!</p>
+        </article>
+
+        <article class="trans-6">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque dolore, enim est et ex iure molestias nemo numquam odio porro qui saepe sed similique totam? Maiores quia repellendus sed! Error hic ipsa labore, mollitia nam necessitatibus qui. Accusantium, aliquam!</p>
+        </article>
+    </section>
+
+    <!-- Transformation 7 -->
+    <h2>Transformation 7</h2>
+    <section>
+        <article class="trans-7">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque dolore, enim est et ex iure molestias nemo numquam odio porro qui saepe sed similique totam? Maiores quia repellendus sed! Error hic ipsa labore, mollitia nam necessitatibus qui. Accusantium, aliquam!</p>
+        </article>
+
+        <article class="trans-7">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque dolore, enim est et ex iure molestias nemo numquam odio porro qui saepe sed similique totam? Maiores quia repellendus sed! Error hic ipsa labore, mollitia nam necessitatibus qui. Accusantium, aliquam!</p>
+        </article>
+
+        <article class="trans-7">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque dolore, enim est et ex iure molestias nemo numquam odio porro qui saepe sed similique totam? Maiores quia repellendus sed! Error hic ipsa labore, mollitia nam necessitatibus qui. Accusantium, aliquam!</p>
+        </article>
+
+        <article class="trans-7">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque dolore, enim est et ex iure molestias nemo numquam odio porro qui saepe sed similique totam? Maiores quia repellendus sed! Error hic ipsa labore, mollitia nam necessitatibus qui. Accusantium, aliquam!</p>
+        </article>
+    </section>
+
+    <!-- Transformation 8 -->
+    <h2>Transformation 8</h2>
+    <section>
+        <article class="trans-8">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque dolore, enim est et ex iure molestias nemo numquam odio porro qui saepe sed similique totam? Maiores quia repellendus sed! Error hic ipsa labore, mollitia nam necessitatibus qui. Accusantium, aliquam!</p>
+        </article>
+
+        <article class="trans-8">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque dolore, enim est et ex iure molestias nemo numquam odio porro qui saepe sed similique totam? Maiores quia repellendus sed! Error hic ipsa labore, mollitia nam necessitatibus qui. Accusantium, aliquam!</p>
+        </article>
+
+        <article class="trans-8">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque dolore, enim est et ex iure molestias nemo numquam odio porro qui saepe sed similique totam? Maiores quia repellendus sed! Error hic ipsa labore, mollitia nam necessitatibus qui. Accusantium, aliquam!</p>
+        </article>
+
+        <article class="trans-8">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cumque dolore, enim est et ex iure molestias nemo numquam odio porro qui saepe sed similique totam? Maiores quia repellendus sed! Error hic ipsa labore, mollitia nam necessitatibus qui. Accusantium, aliquam!</p>
+        </article>
+    </section>
+
+
+</body>
+</html>
